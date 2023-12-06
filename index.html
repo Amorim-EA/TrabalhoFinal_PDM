@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="exemplo de fallback">
+    <meta name="theme-color" content="white" />
+    <link rel="apple-touch-icon" href="images/images.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Em Foco!</title>
+</head>
+<body>
+    <!----hamburguer menu---->
+    
+    <!----fim ham. menu ---->
+    <div class="cadastro-de-focos-comunidade">
+
+        <p class="titulo">Cadastro de Foco da dengue</p>
+        
+        <div class="titulodesc">
+            <p class="label">Titulo:</p>
+            <input type="text" id="titulo"/>
+        </div>
+
+        
+        <div class="descricao">
+            <p class="label">Descrição:</p>
+            <textarea class="textarea" rows="5" cols="55,9" id="descricao"></textarea>
+        </div>
+
+        <div class="titulodesc">
+            <p class="label">Latitude:</p>
+            <input type="text" id="latitude"/>
+        </div>
+
+        <div class="titulodesc">
+            <p class="label">Longitude:</p>
+            <input type="text" id="longitude"/>
+        </div>
+
+        <button id="btn-submit" class="button-submit">Fazer a notificação!</button>
+      </div>
+
+      <div class="listagem">
+        <button id="btn-listar" class="button-submit">Listar notificações</button>
+        <div class="listagens-de-focos-comunidade" id="resultados">
+        </div> 
+      </div>
+
+    <script src="js/main.js"  type="module"></script>
+    <script src="js/db.js"  type="module"></script>
+</body>
+</html>
