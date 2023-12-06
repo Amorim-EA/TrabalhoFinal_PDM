@@ -1,58 +1,120 @@
-/********* PAGINA DE LOGIN *********/ 
+body {
+   background-color: #333;
+}
 
+/********* PAGINA DE LISTAGEM *********/ 
+.listagens-de-focos-comunidade {
+   width: 90%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 
+.cards {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   width: 95%;
+   height: 200px;
+}
 
-/********* FIM LOGIN *********/ 
+.desctitulo {
+   width: 65%;
+   height: 200px;
+   display: flex;
+   
+}
+.titulo_listagem {
+   font-size: 21px;
+   font-weight: 700;
+}
+
+.texto {
+   font-size: 17px;
+   font-weight: 500;
+}
+
+img {
+  width: 30%
+  height: 100%;
+}
+
+/********* FIM LISTAGEM *********/ 
 
 /********* PAGINA DE CADASTRAR *********/ 
 .cadastro-de-focos-comunidade {
-    max-width: 450px;
+    max-width: 100%;
     display: flex;
     gap: 25px;
     flex-direction: column;
     margin: auto;
     justify-content: center;
     align-items: center;
-    background-color: #333;
     color: white;
     padding: 20px;
 }
 
 .titulo {
-    font-size: 36px;
+    font-size: 26px;
+    font-weight: 900;
     margin-bottom: 0;
 }
 
 .label {
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 500
+    margin-bottom: 0;
 }
 
 .button-submit {
   background: #1c9fff;
   border-radius: 5px;
-  width: 430px;
+  width: 90%;
   height: 30px;
   border: 1px solid #333;
+  font-weight: 500;
 }
 
 .tirar-foto, .capturar {
     background: #a7a9aa;
     border-radius: 5px;
-    width: 430px;
+    width: 90%;
     height: 30px;
     border: 1px solid #333;
+    font-weight: 500;
   }
 
+input{
+    background: #a7a9aa;
+    border-radius: 5px;
+    width: 84%;
+    border: 1px solid #333;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+.descricao, .titulodesc {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin: 0;
+}
 .textarea {
     background: #a7a9aa;
     border-radius: 5px;
-    width: 423px;
+    width: 84%;
     height: 100px;
     border: 1px solid #333;
+    font-weight: 500;
+    padding: 10px;
 }
 
   .mapa {
-    width: 423px;
+    width: 90%;
     height: 300px;
   }
   /********* FIM CADASTRAR *********/

@@ -10,7 +10,7 @@
         }
     ],
     "lang": "pt-BR",
-    "start_url": "pages/login.html",
+    "start_url": "pages/listagem.html",
     "display": "standalone",
     "background_color": "white",
     "theme_color": "white"
